@@ -1,0 +1,45 @@
+
+p, section, h1,h2,h3,h4,h5,h6{
+    color: #55575c;
+}
+
+#menu {
+
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+#menu ul li a {
+    font-family: arial black;
+    color: black;
+    display: block;
+    padding: 25px 57px;
+    text-decoration: none;
+    background-color: #9eadb0;
+    width: 100%;
+}
+
+#menu ul li a:hover{
+    background-color:#146e82 ;
+}
+
+footer {
+    background-color: #146e82;
+    color: #9eadb0;
+}
+
+#form {
+    display: none;
+    flex-direction: column;
+    width: 300px;
+}
+
+
